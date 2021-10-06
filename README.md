@@ -8,7 +8,7 @@ Used [`SVG-Cards`](https://github.com/htdebeer/SVG-cards) for card graphics
 
 ## Flipping cards
 
-Utilized [`React-Flippy` module](https://www.npmjs.com/package/react-flippy) to implement the flipping card effect
+Utilized [`React-Flippy`](https://www.npmjs.com/package/react-flippy) module to implement the flipping card effect
 
 
 # Getting Started with Create React App
