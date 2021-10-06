@@ -1,3 +1,12 @@
+# BlackJack
+
+### A React game app
+
+## React-flippy
+
+Utilized `React-flippy` modules to implement the flipping card effect
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
