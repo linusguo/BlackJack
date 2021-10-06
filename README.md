@@ -2,9 +2,13 @@
 
 ### A React game app
 
-## React-flippy
+## Cards
 
-Utilized `React-flippy` modules to implement the flipping card effect
+Used [`SVG-Cards`](https://github.com/htdebeer/SVG-cards) for card graphics
+
+## Flipping cards
+
+Utilized [`React-Flippy` module](https://www.npmjs.com/package/react-flippy) to implement the flipping card effect
 
 
 # Getting Started with Create React App
