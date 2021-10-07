@@ -1,3 +1,4 @@
+// A component to hold the button components
 import React from 'react';
 import '../style/ButtonPanel.css';
 
