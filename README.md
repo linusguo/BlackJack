@@ -10,7 +10,11 @@ Used [`SVG-Cards`](https://github.com/htdebeer/SVG-cards) for card graphics
 
 Utilized [`React-Flippy`](https://www.npmjs.com/package/react-flippy) module to implement the flipping card effect
 
+## Dealing cards
 
+Dealing cards in time is implemented taking advantage of [`RxJS`](https://rxjs.dev/)
+
+In order to declare a variable as observable, name the variable ending with `$`
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
