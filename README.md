@@ -12,7 +12,7 @@ Utilized [`React-Flippy`](https://www.npmjs.com/package/react-flippy) module to 
 
 ## Dealing cards
 
-Dealing cards in time is implemented taking advantage of [`RxJS`](https://rxjs.dev/)
+Dealing cards in time is implemented taking advantage of [`RxJS` library](https://rxjs.dev/)
 
 In order to declare a variable as observable, name the variable ending with `$`
 # Getting Started with Create React App
