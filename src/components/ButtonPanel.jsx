@@ -2,10 +2,45 @@
 import React from 'react';
 import '../style/ButtonPanel.css';
 
-export default function ButtonPanel(props) {
+export default function ButtonPanel({ gc }) {
   return (
-    <div className='messsage'>
-      Here's a Button Panel
+    <div>
+      {
+        {
+          'Start':
+            <button type="button" onClick={() => { gc.deal() }} classNme="deal">
+              <strong>DEAL</strong>
+            </button>,
+
+          'Dealt':
+            <>
+              <button type="button" onClick={() => { gc.stay() }} className="stay">
+                <strong>STAY</strong>
+              </button>
+            </>,
+
+          'Dealing':
+            <div className="message"><strong>DEALING</strong></div>,
+
+          'Stay':
+          <div className="message"><strong>DEALING</strong></div>,
+
+          'Blackjack':
+          <div className="message"><strong>BLACKJACK</strong></div>,
+
+          'Win':
+          <div className="message"><strong>YOU WIN</strong></div>,
+
+          'Lose':
+          <div className="message"><strong>YOU LOSE</strong></div>,
+
+          'Tie':
+          <div className="message"><strong>TIE</strong></div>,
+
+          'Bust':
+          <div className="message"><strong>BUST</strong></div>,
+        }[gc.gameState]
+      }
     </div>
   )
 }
