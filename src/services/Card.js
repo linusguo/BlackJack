@@ -6,24 +6,24 @@ export default class Card {
   }
 
   get suit() {
-    return this._suit;
+      return this._suit;
   }
 
   get face() {
     return this._face;
   }
 
-  get flip() {
+  get value() {
+    return (this.face === 'king'  ||
+            this.face === 'queen' ||
+            this.face === 'jack') ? 10 : Number(this.face)
+  }
+
+  get flip(){
     return this._flip;
   }
 
   set flip(f) {
     this._flip = f;
-  }
-
-  get value() {
-    return (this.face === 'king' ||
-            this.face === 'queen' ||
-            this.face === 'jack') ? 10 : Number(this.face);
   }
 }

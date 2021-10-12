@@ -1,18 +1,11 @@
 import React from 'react';
 import './App.css';
-import Hand from './components/Hand.jsx';
-import ButtonPanel from './components/ButtonPanel.jsx';
-import GameController from './services/GameController.js';
+import GameManager from './components/GameManager';
 
 
-class App extends React.Component {
+export default class App extends React.Component {
   constructor() {
     super();
-    this.gc = new GameController(this);
-    this.state = {
-      dealerCards: this.gc.dealerCards,
-      playerCards: this.gc.playerCards
-    };
     this.mounted = false;
   }
 
@@ -24,23 +17,12 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
-
-          <Hand
-            dealer={true}
-            cards={this.state.dealerCards}
-          />
-
-          <ButtonPanel gc={this.gc} />
-
-          <Hand
-            dealer={false}
-            cards={this.state.playerCards}
-          />
-
+          <h1 tabIndex="0">
+            Blackjack!
+          </h1>
         </header>
+        <GameManager />
       </div>
     );
   }
 }
-
-export default App;

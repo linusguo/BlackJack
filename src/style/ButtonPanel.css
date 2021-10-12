@@ -1,55 +1,52 @@
 button {
-  border: none;
-  border-radius: 5px;
-  color: white;
-  font-size: 28px;
-  height: 40px;
-  width: 100px;
-  margin: 2px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 28px;
+    height: 40px;
+    width: 100px;
+    margin: 2px;
 }
 
 button:hover {
-  border: solid 2px white;
-}
-
-button:focus {
-  outline:0;
+    border: solid 2px white;
 }
 
 button.hit {
-  background-color: orange;
+    background-color: orange;
 }
 
 button.hit:active{
-  background-color: darkorange;
+    background-color: darkorange;
 }
 
 button.stay {
-  background-color: red;
+    background-color: red;
 }
 
 button.stay:active {
-  background-color: darkred;
+    background-color: darkred;
 }
 
 button.deal {
-  background-color: green;
+    background-color: green;
 }
 
 button.deal:active {
-  background-color: darkgreen;
+    background-color: darkgreen;
 }
 
 div.message {
-  font-family: sans-serif;
-  border: none;
-  color: white;
-  font-size: 28px;
-  height: 40px;
-  margin: 2px;
+    font-family: sans-serif;
+    border: none;
+    color: white;
+    font-size: 28px;
+    height: 40px;
+    margin: 2px;
+
 }
 
 div.message * {
-  vertical-align: middle;
+    line-height: 40px;
 }
 
